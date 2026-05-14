@@ -1,0 +1,75 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Ftec.ProjetosWeb.Estatistica.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Estatistica/painel-hoje": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/media-avaliacao-produto": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/media-venda-produto": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/media-vendas-cliente": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/total-vendas": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Estatistica"
+    }
+  ]
+}

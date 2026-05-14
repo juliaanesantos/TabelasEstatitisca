@@ -1,0 +1,11 @@
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.deps.json
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.pdb
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.AssemblyInfoInputs.cache
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.AssemblyInfo.cs
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\refint\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.pdb
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\ref\Ftec.ProjetosWeb.Estatistica.Dominio.dll

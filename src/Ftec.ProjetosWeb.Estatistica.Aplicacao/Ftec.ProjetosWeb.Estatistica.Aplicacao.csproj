@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ftec.ProjetosWeb.Estatistica.Dominio\Ftec.ProjetosWeb.Estatistica.Dominio.csproj" />
+    <ProjectReference Include="..\Ftec.ProjetosWeb.Estatistica.Persistencia\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

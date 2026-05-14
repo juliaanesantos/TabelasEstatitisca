@@ -1,0 +1,52 @@
+[
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
+    "Method": "GetMediaAvaliacaoProduto",
+    "RelativePath": "api/Estatistica/media-avaliacao-produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
+    "Method": "GetMediaVendaPorProduto",
+    "RelativePath": "api/Estatistica/media-venda-produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
+    "Method": "GetMediaVendasClientes",
+    "RelativePath": "api/Estatistica/media-vendas-cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
+    "Method": "GetPainel",
+    "RelativePath": "api/Estatistica/painel-hoje",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
+    "Method": "GetTotalVendas",
+    "RelativePath": "api/Estatistica/total-vendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

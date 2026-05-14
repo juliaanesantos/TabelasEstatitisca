@@ -1,7 +1,7 @@
 # Microserviço de Estatísticas - Marketplace
 
 ## Integrantes
-Juliane, Gustavo e Jenifer
+Juliane, Gustavo, Jenifer e Arthur
 
 ## Descrição
 Microserviço responsável por fornecer dados estatísticos da plataforma de marketplace, incluindo médias de avaliação de produtos, vendas por produto, vendas por cliente e total de vendas.

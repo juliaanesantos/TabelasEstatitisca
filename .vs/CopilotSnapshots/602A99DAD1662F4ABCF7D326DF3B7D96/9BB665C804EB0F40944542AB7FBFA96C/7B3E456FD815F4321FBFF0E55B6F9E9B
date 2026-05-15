@@ -1,0 +1,37 @@
+﻿using Ftec.ProjetosWeb.Estatistica.Aplicacao.DTO;
+using Ftec.ProjetosWeb.Estatistica.Dominio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Ftec.ProjetosWeb.Estatistica.Aplicacao.Adapter
+{
+    public static class MediaAvaliacaoProdutoAdapter
+    {
+        public static MediaAvaliacaoProduto ParaEntidade(MediaAvaliacaoProdutoDTO entidade)
+        {
+            return new MediaAvaliacaoProduto()
+            {
+                QuantidadeAvaliacao = entidade.QuantidadeAvaliacao,
+                SomaAvaliacao = entidade.SomaAvaliacao,
+                TotalAvaliacao = entidade.TotalAvaliacao,
+                MediaAvaliacao = entidade.MediaAvaliacao,
+                Data = entidade.Data
+            };
+        }
+
+        public static MediaAvaliacaoProdutoDTO ParaDTO(MediaAvaliacaoProduto entidade)
+        {
+            return new MediaAvaliacaoProdutoDTO()
+            {
+                QuantidadeAvaliacao = entidade.QuantidadeAvaliacao,
+                SomaAvaliacao = entidade.SomaAvaliacao,
+                TotalAvaliacao = entidade.TotalAvaliacao,
+                MediaAvaliacao = entidade.MediaAvaliacao,
+                Data = entidade.Data
+            };
+        }
+
+
+    }
+}

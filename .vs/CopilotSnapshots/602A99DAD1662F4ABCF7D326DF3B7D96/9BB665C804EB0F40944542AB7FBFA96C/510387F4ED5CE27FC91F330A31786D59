@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace Ftec.ProjetosWeb.Estatistica.Aplicacao.DTO
+{
+    public class MediaAvaliacaoProdutoDTO
+    {
+        public Guid ProdutoId { get; set; }
+        public string NomeProduto { get; set; }
+        public int QuantidadeAvaliacao { get; set; }
+        public int SomaAvaliacao { get; set; }
+        public int TotalAvaliacao { get; set; }
+        public decimal MediaAvaliacao { get; set; }
+        public DateTime Data { get; set; }
+    }
+}

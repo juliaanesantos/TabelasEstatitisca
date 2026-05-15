@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj": {}
+    "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj": {
+    "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj",
+        "projectUniqueName": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj",
         "projectName": "Ftec.ProjetosWeb.Estatistica.Api",
-        "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj",
-        "packagesPath": "C:\\Users\\sjuli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Api\\obj\\",
+        "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj",
+        "packagesPath": "C:\\Users\\jennifer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jennifer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj"
+              "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj"
               }
             }
           }
@@ -53,7 +53,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -502,20 +501,20 @@
         }
       }
     },
-    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj": {
+    "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj",
         "projectName": "Ftec.ProjetosWeb.Estatistica.Aplicacao",
-        "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj",
-        "packagesPath": "C:\\Users\\sjuli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\obj\\",
+        "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\jennifer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jennifer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -524,18 +523,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
-                "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj"
+              "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
+                "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj"
               },
-              "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj"
+              "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj"
               }
             }
           }
@@ -554,7 +553,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -572,7 +570,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -850,20 +848,20 @@
         }
       }
     },
-    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
+    "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj",
         "projectName": "Ftec.ProjetosWeb.Estatistica.Dominio",
-        "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj",
-        "packagesPath": "C:\\Users\\sjuli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj",
+        "packagesPath": "C:\\Users\\jennifer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jennifer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -872,11 +870,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -895,7 +893,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -913,7 +910,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1191,20 +1188,20 @@
         }
       }
     },
-    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj": {
+    "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
         "projectName": "Ftec.ProjetosWeb.Estatistica.Persistencia",
-        "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\sjuli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jennifer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jennifer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1213,15 +1210,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
-                "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj"
+              "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj": {
+                "projectPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj"
               }
             }
           }
@@ -1240,7 +1237,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Npgsql": {
@@ -1264,7 +1260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

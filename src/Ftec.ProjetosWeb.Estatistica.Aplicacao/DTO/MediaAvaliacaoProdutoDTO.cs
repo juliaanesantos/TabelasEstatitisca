@@ -6,7 +6,10 @@ namespace Ftec.ProjetosWeb.Estatistica.Aplicacao.DTO
     {
         public Guid ProdutoId { get; set; }
         public string NomeProduto { get; set; }
-        public decimal MediaAvaliacao { get; set; }
+        public int QuantidadeAvaliacao { get; set; }
+        public int SomaAvaliacao { get; set; }
         public int TotalAvaliacoes { get; set; }
+        public decimal MediaAvaliacao { get; set; }
+        public DateTime Data { get; set; }
     }
 }

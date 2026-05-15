@@ -15,3 +15,4 @@ namespace Ftec.ProjetosWeb.Estatistica.Dominio.Interfaces
         TotalVendas ObterTotalVendas();
     }
 }
+

@@ -1,8 +1,14 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Api/Ftec.ProjetosWeb.Estatistica.Api.csproj" />
+  <Folder Name="/Aplicacao/">
     <Project Path="src/Ftec.ProjetosWeb.Estatistica.Aplicacao/Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj" />
+  </Folder>
+  <Folder Name="/Dominio/">
     <Project Path="src/Ftec.ProjetosWeb.Estatistica.Dominio/Ftec.ProjetosWeb.Estatistica.Dominio.csproj" />
+  </Folder>
+  <Folder Name="/Persistencia/">
     <Project Path="src/Ftec.ProjetosWeb.Estatistica.Persistencia/Ftec.ProjetosWeb.Estatistica.Persistencia.csproj" />
+  </Folder>
+  <Folder Name="/Servico/">
+    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Api/Ftec.ProjetosWeb.Estatistica.Api.csproj" />
   </Folder>
 </Solution>

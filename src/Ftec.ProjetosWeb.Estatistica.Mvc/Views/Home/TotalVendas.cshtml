@@ -1,0 +1,25 @@
+@model TotalVendasViewModel
+@{
+    ViewData["Title"] = "Total de Vendas";
+}
+
+<h1 class="mb-4">Total de Vendas</h1>
+
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <div class="card text-white bg-success">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total de Pedidos</h5>
+                <h1 class="display-4">@Model.TotalPedidos</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card text-white bg-info">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total de Vendas</h5>
+                <h1 class="display-4">@Model.TotalVendas.ToString("C")</h1>
+            </div>
+        </div>
+    </div>
+</div>

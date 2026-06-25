@@ -1,0 +1,50 @@
+﻿@model DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1 class="mb-4">Painel de Estatisticas</h1>
+
+@if (Model.Painel != null && Model.Painel.Any())
+{
+    <div class="row mb-4">
+        @foreach (var item in Model.Painel)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card text-white bg-primary h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Titulo</h5>
+                        <h2 class="card-text">@item.Valor</h2>
+                        <p class="card-text"><small>@item.Detalhe</small></p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">Nenhum dado disponivel no momento.</div>
+}
+
+@if (Model.TotalVendas != null)
+{
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Total de Pedidos</h5>
+                    <h2>@Model.TotalVendas.TotalPedidos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <h5 class="card-title">Total de Vendas</h5>
+                    <h2>@Model.TotalVendas.TotalVendas.ToString("C")</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+}

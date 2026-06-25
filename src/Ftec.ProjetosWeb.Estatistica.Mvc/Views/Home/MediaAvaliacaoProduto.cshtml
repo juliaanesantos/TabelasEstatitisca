@@ -1,0 +1,35 @@
+@model List<MediaAvaliacaoProdutoViewModel>
+@{
+    ViewData["Title"] = "Media de Avaliacao por Produto";
+}
+
+<h1 class="mb-4">Media de Avaliacao por Produto</h1>
+
+@if (Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Produto</th>
+                    <th>Media Avaliacao</th>
+                    <th>Total Avaliacoes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.NomeProduto</td>
+                        <td>@item.MediaAvaliacao.ToString("F2")</td>
+                        <td>@item.TotalAvaliacoes</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">Nenhum dado disponivel.</div>
+}

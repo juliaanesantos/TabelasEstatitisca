@@ -1,0 +1,12 @@
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.deps.json
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\bin\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.pdb
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.AssemblyInfoInputs.cache
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.AssemblyInfo.cs
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.sourcelink.json
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\refint\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.pdb
+C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Release\net10.0\ref\Ftec.ProjetosWeb.Estatistica.Dominio.dll

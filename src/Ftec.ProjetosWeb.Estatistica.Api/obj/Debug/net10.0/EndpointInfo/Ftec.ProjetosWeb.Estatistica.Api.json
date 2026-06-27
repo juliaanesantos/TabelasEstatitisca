@@ -17,10 +17,26 @@
         }
       }
     },
-    "/api/Estatistica/media-avaliacao-produto": {
+    "/api/MediaAvaliacaoProduto": {
       "get": {
         "tags": [
-          "Estatistica"
+          "MediaAvaliacaoProduto"
+        ],
+        "parameters": [
+          {
+            "name": "nomeProduto",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "data",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -29,10 +45,19 @@
         }
       }
     },
-    "/api/Estatistica/media-venda-produto": {
+    "/api/MediaAvaliacaoProduto/total": {
       "get": {
         "tags": [
-          "Estatistica"
+          "MediaAvaliacaoProduto"
+        ],
+        "parameters": [
+          {
+            "name": "data",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -41,22 +66,19 @@
         }
       }
     },
-    "/api/Estatistica/media-vendas-cliente": {
+    "/api/MediaAvaliacaoProduto/media": {
       "get": {
         "tags": [
-          "Estatistica"
+          "MediaAvaliacaoProduto"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
+        "parameters": [
+          {
+            "name": "data",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
-        }
-      }
-    },
-    "/api/Estatistica/total-vendas": {
-      "get": {
-        "tags": [
-          "Estatistica"
         ],
         "responses": {
           "200": {
@@ -70,6 +92,9 @@
   "tags": [
     {
       "name": "Estatistica"
+    },
+    {
+      "name": "MediaAvaliacaoProduto"
     }
   ]
 }

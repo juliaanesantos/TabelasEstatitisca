@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EicXN+xAAaw=",
+  "dgSpecHash": "ZDR0Y+3/J3M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jennifer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
-    "C:\\Users\\jennifer\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
-    "C:\\Users\\jennifer\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512"
+    "C:\\Users\\sjuli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\sjuli\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\sjuli\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\",
+  "WorkspaceRootPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A43495E-4610-82E8-31E8-CB4E3816FAA7}|src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.persistencia\\estatisticarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A43495E-4610-82E8-31E8-CB4E3816FAA7}|src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.persistencia\\estatisticarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.aplicacao\\mediaavaliacaoprodutoaplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.aplicacao\\mediaavaliacaoprodutoaplicacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.aplicacao\\adapter\\mediaavaliacaoprodutoadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.aplicacao\\adapter\\mediaavaliacaoprodutoadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.dominio\\entidades\\totalvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.dominio\\entidades\\totalvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.aplicacao\\adapter\\estatisticaadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.aplicacao\\adapter\\estatisticaadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.dominio\\entidades\\mediaavaliacaoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.dominio\\entidades\\mediaavaliacaoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.aplicacao\\dto\\mediaavaliacaoprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4275C6-ED40-E4A8-403D-96E6746BF4A3}|src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.aplicacao\\dto\\mediaavaliacaoprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB029152-3BC6-D98C-E5A2-60C95F9E0F7B}|src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.api\\controllers\\mediaavaliacaoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB029152-3BC6-D98C-E5A2-60C95F9E0F7B}|src\\Ftec.ProjetosWeb.Estatistica.Api\\Ftec.ProjetosWeb.Estatistica.Api.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.api\\controllers\\mediaavaliacaoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|c:\\users\\jennifer\\source\\repos\\tabelasestatitisca\\src\\ftec.projetosweb.estatistica.dominio\\interfaces\\iestatisticarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CA9F07-7EC2-9DC7-8B36-A9AF3A1D4F9A}|src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Ftec.ProjetosWeb.Estatistica.Dominio.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.dominio\\interfaces\\iestatisticarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DFBDCE2-0DB5-72AA-6AE1-6DBB319E1306}|src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj|c:\\users\\sjuli\\source\\repos\\ftec.projetosweb.estatistica\\src\\ftec.projetosweb.estatistica.mvc\\ftec.projetosweb.estatistica.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DFBDCE2-0DB5-72AA-6AE1-6DBB319E1306}|src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj|solutionrelative:src\\ftec.projetosweb.estatistica.mvc\\ftec.projetosweb.estatistica.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EstatisticaRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\EstatisticaRepositorio.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\EstatisticaRepositorio.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\EstatisticaRepositorio.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Persistencia\\EstatisticaRepositorio.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:42:06.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEstatisticaRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Interfaces\\IEstatisticaRepositorio.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Interfaces\\IEstatisticaRepositorio.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Interfaces\\IEstatisticaRepositorio.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Interfaces\\IEstatisticaRepositorio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAEBTwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:42:03.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MediaAvaliacaoProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Controllers\\MediaAvaliacaoProdutoController.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Api\\Controllers\\MediaAvaliacaoProdutoController.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Api\\Controllers\\MediaAvaliacaoProdutoController.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Api\\Controllers\\MediaAvaliacaoProdutoController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:40:21.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MediaAvaliacaoProdutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\DTO\\MediaAvaliacaoProdutoDTO.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\DTO\\MediaAvaliacaoProdutoDTO.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\DTO\\MediaAvaliacaoProdutoDTO.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\DTO\\MediaAvaliacaoProdutoDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAABOwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:39:58.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MediaAvaliacaoProduto.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\MediaAvaliacaoProduto.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\MediaAvaliacaoProduto.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\MediaAvaliacaoProduto.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\MediaAvaliacaoProduto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:39:54.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MediaAvaliacaoProdutoAplicacao.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\MediaAvaliacaoProdutoAplicacao.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\MediaAvaliacaoProdutoAplicacao.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\MediaAvaliacaoProdutoAplicacao.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\MediaAvaliacaoProdutoAplicacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:18:56.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MediaAvaliacaoProdutoAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\MediaAvaliacaoProdutoAdapter.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\MediaAvaliacaoProdutoAdapter.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\MediaAvaliacaoProdutoAdapter.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\MediaAvaliacaoProdutoAdapter.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAnwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:14:56.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TotalVendas.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\TotalVendas.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\TotalVendas.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\TotalVendas.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Dominio\\Entidades\\TotalVendas.cs",
+              "Title": "Ftec.ProjetosWeb.Estatistica.Mvc",
+              "DocumentMoniker": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
+              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
+              "ToolTip": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
+              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:13:42.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstatisticaAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\EstatisticaAdapter.cs",
-              "RelativeDocumentMoniker": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\EstatisticaAdapter.cs",
-              "ToolTip": "C:\\Users\\jennifer\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\EstatisticaAdapter.cs",
-              "RelativeToolTip": "src\\Ftec.ProjetosWeb.Estatistica.Aplicacao\\Adapter\\EstatisticaAdapter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:11:53.042Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-27T00:06:06.063Z",
               "EditorCaption": ""
             }
           ]

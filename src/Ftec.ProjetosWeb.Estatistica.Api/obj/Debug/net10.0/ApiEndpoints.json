@@ -1,36 +1,6 @@
 [
   {
     "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
-    "Method": "GetMediaAvaliacaoProduto",
-    "RelativePath": "api/Estatistica/media-avaliacao-produto",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
-    "Method": "GetMediaVendaPorProduto",
-    "RelativePath": "api/Estatistica/media-venda-produto",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
-    "Method": "GetMediaVendasClientes",
-    "RelativePath": "api/Estatistica/media-vendas-cliente",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
     "Method": "GetPainel",
     "RelativePath": "api/Estatistica/painel-hoje",
     "HttpMethod": "GET",
@@ -40,13 +10,56 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.EstatisticaController",
-    "Method": "GetTotalVendas",
-    "RelativePath": "api/Estatistica/total-vendas",
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.MediaAvaliacaoProdutoController",
+    "Method": "Get",
+    "RelativePath": "api/MediaAvaliacaoProduto",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "nomeProduto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.MediaAvaliacaoProdutoController",
+    "Method": "GetMedia",
+    "RelativePath": "api/MediaAvaliacaoProduto/media",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ftec.ProjetosWeb.Estatistica.Api.Controllers.MediaAvaliacaoProdutoController",
+    "Method": "GetTotal",
+    "RelativePath": "api/MediaAvaliacaoProduto/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

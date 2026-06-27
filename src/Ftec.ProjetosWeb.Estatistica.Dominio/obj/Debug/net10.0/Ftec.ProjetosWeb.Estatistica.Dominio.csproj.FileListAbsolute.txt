@@ -21,3 +21,4 @@ C:\Users\jennifer\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatisti
 C:\Users\jennifer\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\refint\Ftec.ProjetosWeb.Estatistica.Dominio.dll
 C:\Users\jennifer\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.pdb
 C:\Users\jennifer\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\ref\Ftec.ProjetosWeb.Estatistica.Dominio.dll
+C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Dominio\obj\Debug\net10.0\Ftec.ProjetosWeb.Estatistica.Dominio.sourcelink.json

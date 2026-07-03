@@ -1,0 +1,65 @@
+@model ProdutoDetalheViewModel
+@{
+    ViewData["Title"] = Model.Nome;
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index">Produtos</a></li>
+        <li class="breadcrumb-item active">@Model.Nome</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h1>@Model.Nome</h1>
+                <p class="text-muted">Codigo: @Model.Codigo</p>
+
+                <h3 class="text-primary mb-4">@Model.Preco.ToString("C")</h3>
+
+                @if (!string.IsNullOrEmpty(Model.Descricao))
+                {
+                    <h5>Descricao</h5>
+                    <p>@Model.Descricao</p>
+                }
+
+                <p>
+                    <strong>Estoque:</strong> @Model.QuantidadeEstoque unidades<br />
+                    <strong>Disponivel:</strong> @(Model.Disponivel ? "Sim" : "Nao")
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body text-center">
+                <h5>Avaliacao</h5>
+                @if (Model.TotalAvaliacoes > 0)
+                {
+                    <h2 class="text-warning">@Model.MediaAvaliacao.ToString("F1")</h2>
+                    <p class="text-muted">@Model.TotalAvaliacoes avaliacao(oes)</p>
+                }
+                else
+                {
+                    <p class="text-muted">Sem avaliacoes</p>
+                }
+            </div>
+        </div>
+
+        @if (Model.Destaque)
+        {
+            <div class="card shadow-sm mt-3 bg-warning text-dark">
+                <div class="card-body text-center">
+                    <strong>Produto em Destaque</strong>
+                </div>
+            </div>
+        }
+
+        <div class="mt-3">
+            <a asp-action="Index" class="btn btn-outline-secondary w-100">Voltar</a>
+        </div>
+    </div>
+</div>

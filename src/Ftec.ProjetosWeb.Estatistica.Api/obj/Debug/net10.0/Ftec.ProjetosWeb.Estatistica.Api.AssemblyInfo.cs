@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ftec.ProjetosWeb.Estatistica.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917cc1e550630b85a431162145f546016b98b2f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97a81e3b50ef9bde7bc098bf7475873a1c77456")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ftec.ProjetosWeb.Estatistica.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ftec.ProjetosWeb.Estatistica.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

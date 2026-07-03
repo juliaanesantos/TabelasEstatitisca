@@ -1,9 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Api/Ftec.ProjetosWeb.Estatistica.Api.csproj" />
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Aplicacao/Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj" />
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Dominio/Ftec.ProjetosWeb.Estatistica.Dominio.csproj" />
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Mvc/Ftec.ProjetosWeb.Estatistica.Mvc.csproj" />
-    <Project Path="src/Ftec.ProjetosWeb.Estatistica.Persistencia/Ftec.ProjetosWeb.Estatistica.Persistencia.csproj" />
-  </Folder>
-</Solution>

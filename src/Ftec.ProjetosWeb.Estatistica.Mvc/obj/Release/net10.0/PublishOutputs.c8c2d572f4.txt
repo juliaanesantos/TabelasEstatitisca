@@ -1,7 +1,0 @@
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\Ftec.ProjetosWeb.Estatistica.Mvc.exe
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\appsettings.json
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\Ftec.ProjetosWeb.Estatistica.Mvc.dll
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\Ftec.ProjetosWeb.Estatistica.Mvc.deps.json
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\Ftec.ProjetosWeb.Estatistica.Mvc.runtimeconfig.json
-C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\obj\Release\net10.0\PubTmp\Out\Ftec.ProjetosWeb.Estatistica.Mvc.pdb

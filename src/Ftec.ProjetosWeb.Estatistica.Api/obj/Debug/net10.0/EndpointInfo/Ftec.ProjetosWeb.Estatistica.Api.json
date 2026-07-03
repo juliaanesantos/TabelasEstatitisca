@@ -17,6 +17,54 @@
         }
       }
     },
+    "/api/Estatistica/media-avaliacao-produto": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/media-venda-produto": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/media-vendas-cliente": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Estatistica/total-vendas": {
+      "get": {
+        "tags": [
+          "Estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MediaAvaliacaoProduto": {
       "get": {
         "tags": [

@@ -1,0 +1,157 @@
+{
+  "info": {
+    "name": "Ftec.Estatistica.API",
+    "description": "Collection de testes da API de Estatisticas (endpoints internos)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5168", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "Painel Hoje",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status 200', () => pm.response.to.have.status(200));",
+              "pm.test('Resposta e um array', () => {",
+              "    pm.expect(pm.response.json()).to.be.an('array');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Estatistica/painel-hoje",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "Estatistica", "painel-hoje"]
+        }
+      }
+    },
+    {
+      "name": "Media Avaliacao Produto",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status 200', () => pm.response.to.have.status(200));",
+              "pm.test('Resposta e um array', () => {",
+              "    var json = pm.response.json();",
+              "    pm.expect(json).to.be.an('array');",
+              "    if (json.length > 0) {",
+              "        pm.expect(json[0]).to.have.property('produtoId');",
+              "        pm.expect(json[0]).to.have.property('nomeProduto');",
+              "        pm.expect(json[0]).to.have.property('mediaAvaliacao');",
+              "    }",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Estatistica/media-avaliacao-produto",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "Estatistica", "media-avaliacao-produto"]
+        }
+      }
+    },
+    {
+      "name": "Media Venda Produto",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status 200', () => pm.response.to.have.status(200));",
+              "pm.test('Resposta e um array', () => {",
+              "    var json = pm.response.json();",
+              "    pm.expect(json).to.be.an('array');",
+              "    if (json.length > 0) {",
+              "        pm.expect(json[0]).to.have.property('produtoId');",
+              "        pm.expect(json[0]).to.have.property('quantidadeVendida');",
+              "        pm.expect(json[0]).to.have.property('valorTotal');",
+              "    }",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Estatistica/media-venda-produto",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "Estatistica", "media-venda-produto"]
+        }
+      }
+    },
+    {
+      "name": "Media Vendas Cliente",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status 200', () => pm.response.to.have.status(200));",
+              "pm.test('Resposta e um array', () => {",
+              "    var json = pm.response.json();",
+              "    pm.expect(json).to.be.an('array');",
+              "    if (json.length > 0) {",
+              "        pm.expect(json[0]).to.have.property('nomeCliente');",
+              "        pm.expect(json[0]).to.have.property('quantidadePedidos');",
+              "        pm.expect(json[0]).to.have.property('totalVendas');",
+              "    }",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Estatistica/media-vendas-cliente",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "Estatistica", "media-vendas-cliente"]
+        }
+      }
+    },
+    {
+      "name": "Total Vendas",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status 200', () => pm.response.to.have.status(200));",
+              "pm.test('Resposta contem totalPedidos e totalVendas', () => {",
+              "    var json = pm.response.json();",
+              "    pm.expect(json).to.have.property('totalPedidos');",
+              "    pm.expect(json).to.have.property('totalVendas');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/Estatistica/total-vendas",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "Estatistica", "total-vendas"]
+        }
+      }
+    }
+  ]
+}

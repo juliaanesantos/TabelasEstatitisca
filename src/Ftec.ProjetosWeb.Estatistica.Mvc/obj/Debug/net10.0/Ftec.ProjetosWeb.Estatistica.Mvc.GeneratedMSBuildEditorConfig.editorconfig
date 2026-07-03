@@ -12,57 +12,77 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ftec.ProjetosWeb.Estatistica.Mvc
 build_property.RootNamespace = Ftec.ProjetosWeb.Estatistica.Mvc
-build_property.ProjectDir = C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc\
+build_property.ProjectDir = C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jpmor\source\repos\TabelasEstatitisca\src\Ftec.ProjetosWeb.Estatistica.Mvc
+build_property.MSBuildProjectDirectory = C:\Users\sjuli\source\repos\Ftec.ProjetosWeb.Estatistica\src\Ftec.ProjetosWeb.Estatistica.Mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/Index.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaAvaliacaoProduto.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaAvaliacaoProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRpYUF2YWxpYWNhb1Byb2R1dG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaVendaPorProduto.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaVendaPorProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRpYVZlbmRhUG9yUHJvZHV0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaVendasClientes.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/MediaVendasClientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRpYVZlbmRhc0NsaWVudGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/Privacy.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/TotalVendas.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Home/TotalVendas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb3RhbFZlbmRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/Error.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Pedido/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Produto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/_ViewImports.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/_ViewStart.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jpmor/source/repos/TabelasEstatitisca/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/_Layout.cshtml]
+[C:/Users/sjuli/source/repos/Ftec.ProjetosWeb.Estatistica/src/Ftec.ProjetosWeb.Estatistica.Mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wmyad09lub

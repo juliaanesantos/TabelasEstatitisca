@@ -1,7 +1,5 @@
 ﻿using Ftec.ProjetosWeb.Estatistica.Aplicacao;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using System;
 
 namespace Ftec.ProjetosWeb.Estatistica.Api.Controllers
 {
@@ -11,9 +9,9 @@ namespace Ftec.ProjetosWeb.Estatistica.Api.Controllers
     {
         private readonly MediaAvaliacaoProdutoAplicacao aplicacao;
 
-        public MediaAvaliacaoProdutoController(IConfiguration config)
+        public MediaAvaliacaoProdutoController(MediaAvaliacaoProdutoAplicacao aplicacao)
         {
-            aplicacao = new MediaAvaliacaoProdutoAplicacao(config["strConexao"]);
+            this.aplicacao = aplicacao;
         }
 
         // GET api/MediaAvaliacaoProduto?nomeProduto=Nome&data=2024-01-01

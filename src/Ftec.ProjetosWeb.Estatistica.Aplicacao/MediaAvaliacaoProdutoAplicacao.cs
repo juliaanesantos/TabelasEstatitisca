@@ -1,20 +1,16 @@
 ﻿using Ftec.ProjetosWeb.Estatistica.Aplicacao.Adapter;
 using Ftec.ProjetosWeb.Estatistica.Aplicacao.DTO;
 using Ftec.ProjetosWeb.Estatistica.Dominio.Interfaces;
-using Ftec.ProjetosWeb.Estatistica.Persistencia;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Ftec.ProjetosWeb.Estatistica.Aplicacao
 {
     public class MediaAvaliacaoProdutoAplicacao
     {
-        private IMediaAvaliacaoProdutoRepositorio repositorio;
+        private readonly IMediaAvaliacaoProdutoRepositorio repositorio;
 
-        public MediaAvaliacaoProdutoAplicacao(string strConexao)
+        public MediaAvaliacaoProdutoAplicacao(IMediaAvaliacaoProdutoRepositorio repositorio)
         {
-            repositorio = new MediaAvaliacaoProdutoRepositorio(strConexao);
+            this.repositorio = repositorio;
         }
 
         public List<MediaAvaliacaoProdutoDTO> ListarAvaliacao(string nomeProduto, DateTime data)

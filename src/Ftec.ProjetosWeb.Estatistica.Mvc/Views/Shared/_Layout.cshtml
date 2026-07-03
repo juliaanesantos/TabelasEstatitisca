@@ -21,18 +21,47 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-controller="Home" asp-action="Index">Dashboard</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-controller="Home" asp-action="MediaAvaliacaoProduto">Avaliacao Produto</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Produtos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Produto" asp-action="Index">Catalogo</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="MediaAvaliacaoProduto">Avaliacao por Produto</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="MediaVendaPorProduto">Venda por Produto</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-controller="Home" asp-action="MediaVendaPorProduto">Venda por Produto</a>
+                            <a class="nav-link text-light" asp-controller="Pedido" asp-action="Index">Pedidos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-controller="Home" asp-action="MediaVendasClientes">Vendas por Cliente</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown">Relatorios</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="MediaVendasClientes">Vendas por Cliente</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action="TotalVendas">Total Vendas</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-controller="Home" asp-action="TotalVendas">Total Vendas</a>
-                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        @{
+                            var nome = Context.Session.GetString("UsuarioNome");
+                        }
+                        @if (!string.IsNullOrEmpty(nome))
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-light">@nome</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Auth" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Auth" asp-action="Login">Entrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Auth" asp-action="Register">Cadastrar</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>

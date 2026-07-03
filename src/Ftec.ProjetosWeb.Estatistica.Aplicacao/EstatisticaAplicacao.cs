@@ -1,19 +1,16 @@
 using Ftec.ProjetosWeb.Estatistica.Aplicacao.Adapter;
 using Ftec.ProjetosWeb.Estatistica.Aplicacao.DTO;
 using Ftec.ProjetosWeb.Estatistica.Dominio.Interfaces;
-using Ftec.ProjetosWeb.Estatistica.Persistencia;
-using System;
-using System.Collections.Generic;
 
 namespace Ftec.ProjetosWeb.Estatistica.Aplicacao
 {
     public class EstatisticaAplicacao
     {
-        private IEstatisticaRepositorio _repositorio;
+        private readonly IEstatisticaRepositorio _repositorio;
 
-        public EstatisticaAplicacao(string strConexao)
+        public EstatisticaAplicacao(IEstatisticaRepositorio repositorio)
         {
-            _repositorio = new EstatisticaRepositorio(strConexao);
+            _repositorio = repositorio;
         }
 
         public List<EstatisticaResumoDTO> GerarPainelDiario(DateTime data)

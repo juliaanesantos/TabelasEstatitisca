@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41AA9700-DD48-4AED-9355-864A8C2D9032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjetosWeb.Estatistica.Api", "src\Ftec.ProjetosWeb.Estatistica.Api\Ftec.ProjetosWeb.Estatistica.Api.csproj", "{D630EA50-0728-419F-BDF6-0B577370DB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjetosWeb.Estatistica.Aplicacao", "src\Ftec.ProjetosWeb.Estatistica.Aplicacao\Ftec.ProjetosWeb.Estatistica.Aplicacao.csproj", "{1829B01F-5AF0-432A-B089-84B4282A7607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjetosWeb.Estatistica.Dominio", "src\Ftec.ProjetosWeb.Estatistica.Dominio\Ftec.ProjetosWeb.Estatistica.Dominio.csproj", "{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjetosWeb.Estatistica.Mvc", "src\Ftec.ProjetosWeb.Estatistica.Mvc\Ftec.ProjetosWeb.Estatistica.Mvc.csproj", "{58D3187D-9ED1-4753-BB0D-81BAF9DD5148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ftec.ProjetosWeb.Estatistica.Persistencia", "src\Ftec.ProjetosWeb.Estatistica.Persistencia\Ftec.ProjetosWeb.Estatistica.Persistencia.csproj", "{A8DDE030-8F50-4C00-AB83-648EAA1F9334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D630EA50-0728-419F-BDF6-0B577370DB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D630EA50-0728-419F-BDF6-0B577370DB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D630EA50-0728-419F-BDF6-0B577370DB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D630EA50-0728-419F-BDF6-0B577370DB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1829B01F-5AF0-432A-B089-84B4282A7607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1829B01F-5AF0-432A-B089-84B4282A7607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1829B01F-5AF0-432A-B089-84B4282A7607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1829B01F-5AF0-432A-B089-84B4282A7607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D3187D-9ED1-4753-BB0D-81BAF9DD5148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D3187D-9ED1-4753-BB0D-81BAF9DD5148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D3187D-9ED1-4753-BB0D-81BAF9DD5148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D3187D-9ED1-4753-BB0D-81BAF9DD5148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DDE030-8F50-4C00-AB83-648EAA1F9334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DDE030-8F50-4C00-AB83-648EAA1F9334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DDE030-8F50-4C00-AB83-648EAA1F9334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DDE030-8F50-4C00-AB83-648EAA1F9334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D630EA50-0728-419F-BDF6-0B577370DB6E} = {41AA9700-DD48-4AED-9355-864A8C2D9032}
+		{1829B01F-5AF0-432A-B089-84B4282A7607} = {41AA9700-DD48-4AED-9355-864A8C2D9032}
+		{32FC05E4-1A1C-4903-BDBE-8FCFB27F8F18} = {41AA9700-DD48-4AED-9355-864A8C2D9032}
+		{58D3187D-9ED1-4753-BB0D-81BAF9DD5148} = {41AA9700-DD48-4AED-9355-864A8C2D9032}
+		{A8DDE030-8F50-4C00-AB83-648EAA1F9334} = {41AA9700-DD48-4AED-9355-864A8C2D9032}
+	EndGlobalSection
+EndGlobal

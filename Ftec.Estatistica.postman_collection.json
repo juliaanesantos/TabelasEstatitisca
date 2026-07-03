@@ -1,0 +1,597 @@
+{
+  "info": {
+    "name": "Ftec.Estatistica",
+    "description": "Collection completa de testes da API de Estatisticas com integracao aos microsservicos do Marketplace",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5168", "type": "string" },
+    { "key": "usuarioUrl", "value": "http://usuario.neurosky.com.br", "type": "string" },
+    { "key": "produtoUrl", "value": "http://produto.neurosky.com.br", "type": "string" },
+    { "key": "pedidoUrl", "value": "http://pedido.neurosky.com.br", "type": "string" },
+    { "key": "avaliacaoUrl", "value": "http://avaliacao.neurosky.com.br", "type": "string" },
+    { "key": "email", "value": "estatistica@neurosky.com.br", "type": "string" },
+    { "key": "senha", "value": "Estatistica@123", "type": "string" },
+    { "key": "token", "value": "", "type": "string" },
+    { "key": "usuarioId", "value": "", "type": "string" },
+    { "key": "produtoId", "value": "", "type": "string" },
+    { "key": "avaliacaoId", "value": "", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "Auth / Usuario",
+      "item": [
+        {
+          "name": "Login (salva token)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Login realizado com sucesso', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "    var json = pm.response.json();",
+                  "    pm.collectionVariables.set('token', json.accessToken);",
+                  "    pm.collectionVariables.set('usuarioId', json.usuarioId);",
+                  "    pm.expect(json.accessToken).to.not.be.empty;",
+                  "    pm.expect(json.usuarioId).to.not.be.empty;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{email}}\",\n  \"senha\": \"{{senha}}\"\n}"
+            },
+            "url": {
+              "raw": "{{usuarioUrl}}/api/autenticacao/login",
+              "host": ["{{usuarioUrl}}"],
+              "path": ["api", "autenticacao", "login"]
+            }
+          }
+        },
+        {
+          "name": "Cadastrar Usuario",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Usuario criado com sucesso', function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+                  "    var json = pm.response.json();",
+                  "    pm.collectionVariables.set('usuarioId', json.id || json.usuarioId);",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"Usuario Teste\",\n  \"email\": \"teste@email.com\",\n  \"senha\": \"Teste@123\",\n  \"documento\": \"01234567890\",\n  \"tipoPessoa\": 0,\n  \"funcao\": 0,\n  \"dataNascimento\": \"2000-01-01\",\n  \"telefone\": \"54999999999\"\n}"
+            },
+            "url": {
+              "raw": "{{usuarioUrl}}/api/usuario",
+              "host": ["{{usuarioUrl}}"],
+              "path": ["api", "usuario"]
+            }
+          }
+        },
+        {
+          "name": "Obter Usuario por ID",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Usuario obtido com sucesso', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.nome).to.not.be.empty;",
+                  "    pm.expect(json.email).to.not.be.empty;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": {
+              "raw": "{{usuarioUrl}}/api/usuario/{{usuarioId}}",
+              "host": ["{{usuarioUrl}}"],
+              "path": ["api", "usuario", "{{usuarioId}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Estatistica API",
+      "item": [
+        {
+          "name": "Painel Hoje",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Estatistica/painel-hoje",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "Estatistica", "painel-hoje"]
+            }
+          }
+        },
+        {
+          "name": "Media Avaliacao Produto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Estatistica/media-avaliacao-produto",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "Estatistica", "media-avaliacao-produto"]
+            }
+          }
+        },
+        {
+          "name": "Media Venda Produto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Estatistica/media-venda-produto",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "Estatistica", "media-venda-produto"]
+            }
+          }
+        },
+        {
+          "name": "Media Vendas Cliente",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Estatistica/media-vendas-cliente",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "Estatistica", "media-vendas-cliente"]
+            }
+          }
+        },
+        {
+          "name": "Total Vendas",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta contem totalPedidos e totalVendas', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.have.property('totalPedidos');",
+                  "    pm.expect(json).to.have.property('totalVendas');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/Estatistica/total-vendas",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "Estatistica", "total-vendas"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Produto",
+      "item": [
+        {
+          "name": "Listar Produtos",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta tem sucesso e data', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.sucesso).to.be.true;",
+                  "    pm.expect(json.data).to.be.an('array');",
+                  "    if (json.data.length > 0) {",
+                  "        pm.collectionVariables.set('produtoId', json.data[0].id);",
+                  "    }",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{produtoUrl}}/api/produto/listar",
+              "host": ["{{produtoUrl}}"],
+              "path": ["api", "produto", "listar"]
+            }
+          }
+        },
+        {
+          "name": "Obter Produto por ID",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Produto encontrado', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.sucesso).to.be.true;",
+                  "    pm.expect(json.data).to.have.property('nome');",
+                  "    pm.expect(json.data).to.have.property('preco');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{produtoUrl}}/api/produto/obtemPorId/{{produtoId}}",
+              "host": ["{{produtoUrl}}"],
+              "path": ["api", "produto", "obtemPorId", "{{produtoId}}"]
+            }
+          }
+        },
+        {
+          "name": "Buscar Produto por Texto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Busca retorna array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.sucesso).to.be.true;",
+                  "    pm.expect(json.data).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{produtoUrl}}/api/produto/buscar/caneta",
+              "host": ["{{produtoUrl}}"],
+              "path": ["api", "produto", "buscar", "caneta"]
+            }
+          }
+        },
+        {
+          "name": "Cadastrar Produto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Produto cadastrado', function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.sucesso).to.be.true;",
+                  "    if (json.data && json.data.id) {",
+                  "        pm.collectionVariables.set('produtoId', json.data.id);",
+                  "    }",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"codigo\": \"PROD-TESTE-001\",\n  \"nome\": \"Produto Teste Postman\",\n  \"preco\": 29.90,\n  \"quantidadeEstoque\": 10,\n  \"estoqueMinimoVenda\": 1,\n  \"idCategoria\": \"00000000-0000-0000-0000-000000000000\",\n  \"descricao\": \"Produto criado via Postman\",\n  \"disponivel\": true,\n  \"destaque\": false\n}"
+            },
+            "url": {
+              "raw": "{{produtoUrl}}/api/produto/cadastrarProduto",
+              "host": ["{{produtoUrl}}"],
+              "path": ["api", "produto", "cadastrarProduto"]
+            }
+          }
+        },
+        {
+          "name": "Atualizar Produto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Produto atualizado', function () {",
+                  "    pm.response.to.have.status(200);",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json.sucesso).to.be.true;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"{{produtoId}}\",\n  \"codigo\": \"PROD-TESTE-001\",\n  \"nome\": \"Produto Teste Atualizado\",\n  \"preco\": 39.90,\n  \"quantidadeEstoque\": 15,\n  \"estoqueMinimoVenda\": 1,\n  \"descricao\": \"Produto atualizado via Postman\",\n  \"disponivel\": true,\n  \"destaque\": true\n}"
+            },
+            "url": {
+              "raw": "{{produtoUrl}}/api/produto/atualizarProduto",
+              "host": ["{{produtoUrl}}"],
+              "path": ["api", "produto", "atualizarProduto"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pedido",
+      "item": [
+        {
+          "name": "Listar Pedidos",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "    if (json.length > 0) {",
+                  "        pm.expect(json[0]).to.have.property('id');",
+                  "        pm.expect(json[0]).to.have.property('valorTotal');",
+                  "    }",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{pedidoUrl}}/api/pedido",
+              "host": ["{{pedidoUrl}}"],
+              "path": ["api", "pedido"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Avaliacao",
+      "item": [
+        {
+          "name": "Obter Avaliacoes por Produto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Resposta e um array', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.be.an('array');",
+                  "    if (json.length > 0) {",
+                  "        pm.collectionVariables.set('avaliacaoId', json[0].id);",
+                  "    }",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{avaliacaoUrl}}/api/avaliacao/produto/{{produtoId}}",
+              "host": ["{{avaliacaoUrl}}"],
+              "path": ["api", "avaliacao", "produto", "{{produtoId}}"]
+            }
+          }
+        },
+        {
+          "name": "Criar Avaliacao",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Avaliacao criada', function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+                  "    var json = pm.response.json();",
+                  "    if (json.id) pm.collectionVariables.set('avaliacaoId', json.id);",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idProduto\": \"{{produtoId}}\",\n  \"nota\": 5,\n  \"comentario\": \"Produto excelente!\"\n}"
+            },
+            "url": {
+              "raw": "{{avaliacaoUrl}}/api/avaliacao",
+              "host": ["{{avaliacaoUrl}}"],
+              "path": ["api", "avaliacao"]
+            }
+          }
+        },
+        {
+          "name": "Obter Avaliacao por ID",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', function () { pm.response.to.have.status(200); });",
+                  "pm.test('Avaliacao encontrada', function () {",
+                  "    var json = pm.response.json();",
+                  "    pm.expect(json).to.not.be.empty;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{avaliacaoUrl}}/api/avaliacao/{{avaliacaoId}}",
+              "host": ["{{avaliacaoUrl}}"],
+              "path": ["api", "avaliacao", "{{avaliacaoId}}"]
+            }
+          }
+        },
+        {
+          "name": "Atualizar Avaliacao",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Avaliacao atualizada', function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 204]);",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": \"{{avaliacaoId}}\",\n  \"idProduto\": \"{{produtoId}}\",\n  \"nota\": 4,\n  \"comentario\": \"Avaliacao atualizada via Postman\"\n}"
+            },
+            "url": {
+              "raw": "{{avaliacaoUrl}}/api/avaliacao",
+              "host": ["{{avaliacaoUrl}}"],
+              "path": ["api", "avaliacao"]
+            }
+          }
+        },
+        {
+          "name": "Excluir Avaliacao",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Avaliacao excluida', function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 204]);",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{avaliacaoUrl}}/api/avaliacao/{{avaliacaoId}}",
+              "host": ["{{avaliacaoUrl}}"],
+              "path": ["api", "avaliacao", "{{avaliacaoId}}"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

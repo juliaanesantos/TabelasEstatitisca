@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jpmor\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj": {}
+    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jpmor\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj": {
+    "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jpmor\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
         "projectName": "Ftec.ProjetosWeb.Estatistica.Mvc",
-        "projectPath": "C:\\Users\\jpmor\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
-        "packagesPath": "C:\\Users\\jpmor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jpmor\\source\\repos\\TabelasEstatitisca\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\obj\\",
+        "projectPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\Ftec.ProjetosWeb.Estatistica.Mvc.csproj",
+        "packagesPath": "C:\\Users\\sjuli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sjuli\\source\\repos\\Ftec.ProjetosWeb.Estatistica\\src\\Ftec.ProjetosWeb.Estatistica.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jpmor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

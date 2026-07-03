@@ -1,0 +1,58 @@
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-4">Criar Conta</h2>
+
+                <form asp-action="Register" method="post">
+                    <div class="mb-3">
+                        <label asp-for="Nome" class="form-label"></label>
+                        <input asp-for="Nome" class="form-control" required />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" type="email" required />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Senha" class="form-label"></label>
+                        <input asp-for="Senha" class="form-control" type="password" required />
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Documento" class="form-label">CPF</label>
+                        <input asp-for="Documento" class="form-control" placeholder="apenas numeros" />
+                        <span asp-validation-for="Documento" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Telefone" class="form-label">Telefone</label>
+                        <input asp-for="Telefone" class="form-control" placeholder="apenas numeros" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="DataNascimento" class="form-label">Data de Nascimento</label>
+                        <input asp-for="DataNascimento" class="form-control" type="date" />
+                    </div>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+                </form>
+
+                <p class="text-center mt-3">
+                    Ja tem conta? <a asp-action="Login">Faca login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
